@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Import Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha384-..."
+      crossorigin="anonymous"
+    />
+
+    <!-- Import GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="./01-final-project.css" />
+    <title>Candle Creator</title>
+  </head>
+  <body>
+    <header>
+      <h1>Candle Creator</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#ChooseYourCandle">Choose your candle</a></li>
+        <li><a href="#supplies">Supplies</a></li>
+        <li><a href="#about-us">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Section 1 -->
+    <section id="home">
+      <h1>Welcome to Candle Crafting</h1>
+      <p>
+        Candle crafting is a delightful and creative hobby that allows you to
+        express your unique style through the art of candle making. Whether
+        you're a beginner or an experienced crafter, this fascinating world of
+        wax and wick offers endless possibilities for customization. With a
+        little guidance and some imagination, you can create beautiful,
+        handcrafted candles that make perfect gifts, decorations, or even
+        sellable items.
+      </p>
+      <p>
+        Candle crafting is not only a fun pastime, but it also provides a sense
+        of accomplishment as you watch your ideas come to life in the form of
+        elegant, scented, or colorful candles. It's a fantastic way to unwind
+        and relieve stress while producing beautiful, functional art.
+      </p>
+      <p>
+        Explore our website to find step-by-step tutorials, tips, and
+        inspiration to ignite your candle crafting journey. From choosing the
+        right wax and fragrance to experimenting with various molds and
+        techniques, we're here to guide you through the process. Join our
+        community of candle crafters and let your creativity shine.
+      </p>
+
+      <a
+        href="https://www.gala-group.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="./images/hmgoepprod.webp"
+          alt="picture-01"
+          width="300"
+          height="500"
+        />
+      </a>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="supplies">
+      <h2>Supplies</h2>
+      <p>
+        Discover the finest quality candle-making supplies to create your
+        masterpieces.
+      </p>
+
+      <ul>
+        <li>Candle wax (e.g., soy wax, paraffin wax)</li>
+        <li>Candle wicks</li>
+        <li>Fragrance oils or essential oils</li>
+        <li>Candle containers or molds</li>
+        <li>Melting pot or double boiler</li>
+        <li>Thermometer</li>
+        <li>Candle dye or colorants</li>
+        <li>Stirring tools</li>
+      </ul>
+      <p>
+        These are just a few of the supplies you'll need to start your candle
+        crafting journey.
+      </p>
+
+      <p>
+        Be sure to explore our tutorials for more detailed information on how to
+        use these supplies to create beautiful candles.
+      </p>
+    </section>
+
+    <!-- Section 3 -->
+    <section id="about-us">
+      <h2>About Us</h2>
+      <p>
+        Welcome to Candle Creator, where passion and craftsmanship combine to
+        illuminate your world. We are dedicated to crafting exquisite candles
+        that bring warmth and ambiance to your life. With a commitment to
+        quality and creativity, our candles are more than just wax and wick;
+        they are a reflection of artistry and love.
+      </p>
+
+      <p>
+        Our journey began with a simple idea – to create candles that tell
+        stories, evoke emotions, and transform spaces. Every Candle Creator
+        product is hand-poured with care and attention to detail, ensuring that
+        each one is a unique masterpiece. We take pride in using premium,
+        sustainable ingredients to deliver long-lasting, fragrant, and
+        eco-friendly candles that you can enjoy guilt-free.
+      </p>
+
+      <p>
+        As a family-owned business, we value the importance of personal touch
+        and customer satisfaction. Your feedback is our inspiration, and your
+        trust is our most treasured asset. We invite you to explore our wide
+        range of candle collections, from classic scents to innovative designs.
+        Join us in celebrating life's special moments with the warm glow of
+        Candle Creator candles.
+      </p>
+
+      <p>
+        Illuminate your life with Candle Creator – where every candle is a work
+        of art. Thank you for being a part of our journey.
+      </p>
+
+      <a
+        href="https://fairyfirecandles.com/f/5-candle-bloggers-you-need-to-follow/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="./images/photo-1612198526331-66fcc90d67da.avif"
+          alt="Candle Image"
+        />
+      </a>
+    </section>
+
+    <main>
+      <section id="ChooseYourCandle">
+        <section class="candle-options">
+          <h2>Choose Your Candle</h2>
+          <div class="candle-option" id="candle1">
+            <img
+              src="./images/200.jpg"
+              alt="Candle 1"
+              width="200"
+              height="200"
+            />
+            <h3>Candle 1</h3>
+            <p>Aromatic Lavender</p>
+            <button onclick="selectCandle(1)">Select</button>
+          </div>
+          <div class="candle-option" id="candle2">
+            <img
+              src="./images/201.avif"
+              alt="Candle 2"
+              width="200"
+              height="200"
+            />
+            <h3>Candle 2</h3>
+            <p>Vanilla Delight</p>
+            <button onclick="selectCandle(2)">Select</button>
+          </div>
+        </section>
+
+        <section class="selected-candle">
+          <h2>Your Selection</h2>
+          <img
+            src="./images/"
+            id="selected-candle-img"
+            alt="Selected Candle"
+            width="200"
+            height="200"
+          />
+
+          <h3 id="selected-candle-name"></h3>
+          <p id="selected-candle-description"></p>
+          <button
+            id="instructions-btn"
+            style="display: none"
+            onclick="showInstructions()"
+          >
+            Instructions
+          </button>
+          <p id="instructions" style="display: none">
+            Instructions on how to make the chosen candle.
+          </p>
+        </section>
+      </section>
+    </main>
+
+    <script>
+      function selectCandle(candleId) {
+        // Replace the following with actual image and descriptions
+        var images = [
+          "./images/200.jpg", // Image for Candle 1
+          "./images/201.avif", // Image for Candle 2
+        ];
+        var names = ["Aromatic Lavender", "Vanilla Delight"];
+        var descriptions = [
+          "Aromatic Lavender candle description.",
+          "Vanilla Delight candle description.",
+        ];
+
+        // Update the selected candle information
+        document.getElementById("selected-candle-img").src =
+          images[candleId - 1];
+        document.getElementById("selected-candle-name").textContent =
+          "Candle " + candleId;
+        document.getElementById("selected-candle-description").textContent =
+          descriptions[candleId - 1];
+
+        // Show the instructions button
+        document.getElementById("instructions-btn").style.display = "block";
+      }
+
+      function showInstructions() {
+        // Replace with actual instructions
+        document.getElementById("instructions").textContent =
+          "Instructions on how to make the chosen candle will go here.";
+        document.getElementById("instructions").style.display = "block";
+      }
+    </script>
+
+    <!-- Section 5 -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: info@craftingcandles.com</p>
+      <p>Phone: +123-456-7890</p>
+
+      <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+    </section>
+
+    <!-- Social Icons -->
+
+    <div class="video-container">
+      <iframe
+        height="315"
+        src="https://www.youtube.com/embed/ZQk9l2ttcIA"
+      ></iframe>
+
+      <iframe
+        height="315"
+        src="https://www.youtube.com/embed/CrJ9UE6Nihw"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Candle Crafting by Joanna Richardson</p>
+    </footer>
+    <video
+      width="50"
+      height="50"
+      preload="none"
+      style="
+        background: transparent
+          url('https://cdn-icons-png.flaticon.com/512/8568/8568703.png') 50% 50% /
+          contain no-repeat;
+      "
+      autoplay="autoplay"
+      loop="true"
+      muted="muted"
+      playsinline=""
+    >
+      <source
+        src="https://cdn-icons-mp4.flaticon.com/512/8568/8568703.mp4"
+        type="video/mp4"
+      />
+    </video>
+  </body>
+</html>

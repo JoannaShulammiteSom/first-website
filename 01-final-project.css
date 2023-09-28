@@ -1,0 +1,226 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header styles */
+header {
+  background-color: #f1d4d4;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #a77c90;
+}
+
+/* Section styles */
+section {
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Main content styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+/* Candle options styles */
+.candle-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.candle-option {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: 220px;
+  margin: 0 auto;
+}
+
+.selected-candle {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Instructions styles */
+.candle-instructions {
+  text-align: center;
+}
+
+/* Navigation link styles */
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+nav ul li a:hover {
+  color: #a77c90;
+}
+
+/* Video container styles */
+.video-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+iframe {
+  width: 45%;
+  box-shadow: 0 0 10px grey;
+  border: none;
+}
+
+/* Home section styles */
+#home {
+  background-image: url("./images/1000.jpg");
+  background-color: #f9f9f9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+#choose-your-candle {
+  background-color: lightpink;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+#supplies {
+  background-image: url("./images/22.jpeg");
+  background-color: #f9f9f9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+#about-us {
+  background-image: url("./images/1000.jpg");
+  background-color: #f9f9f9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+#contact {
+  background-image: url("./images/1000.jpg");
+  background-color: #f9f9f9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Add a hover effect and grey border to images */
+img:hover {
+  border: 1px solid grey;
+  transition: border 0.3s;
+}
+
+#about-us {
+  text-align: left;
+}
+
+#about-us img {
+  float: left;
+  margin-right: 20px;
+  height: 400px;
+  width: 300px;
+}
+
+/* Social icons styles */
+.social-icons {
+  margin-top: 50px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 52px;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0077b5;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f1d4d4;
+  text-align: center;
+  padding: 10px 0;
+  color: #a77c90;
+}

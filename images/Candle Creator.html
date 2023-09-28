@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- saved from url=(0096)file:///c%3A/Users/DCI_Student/Desktop/DCI%20Codes/final-project/try.html#Choose%20Your%20Candle -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Import CSS-->
+    <link rel="stylesheet" href="./Candle Creator_files/try.css">
+    <title>Candle Creator</title>
+  </head>
+  <body>
+    <header>
+      <h1>Candle Creator</h1>
+    </header>
+
+  
+  
+    <header>
+      <nav>
+        <ul>
+          <li><a href="file:///c%3A/Users/DCI_Student/Desktop/DCI%20Codes/final-project/try.html#home">Home</a></li>
+          <li><a href="file:///c%3A/Users/DCI_Student/Desktop/DCI%20Codes/final-project/try.html#Choose%20Your%20Candle">Choose your candle</a></li>
+          <li><a href="file:///c%3A/Users/DCI_Student/Desktop/DCI%20Codes/final-project/try.html#supplies">Supplies</a></li>
+          <li><a href="file:///c%3A/Users/DCI_Student/Desktop/DCI%20Codes/final-project/try.html#about-us">About</a></li>
+          <li><a href="file:///c%3A/Users/DCI_Student/Desktop/DCI%20Codes/final-project/try.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h1>Welcome to Candle Crafting</h1>
+      <p>
+        Welcome to the enchanting world of Candle Crafting, where creativity and
+        fragrance unite.
+      </p>
+      <p>
+        Learn the art of making personalized candles, bringing warmth and light
+        to your life's moments.
+      </p>
+    </section>
+
+    <main>
+      <section class="candle-options">
+        <h2>Choose Your Candle</h2>
+        <div class="candle-option">
+          <img src="./Candle Creator_files/200.jpg" alt="Candle 1" width="200" height="200">
+          <h3>Candle 1</h3>
+          <p>Aromatic Lavender</p>
+          <button onclick="selectCandle(1)">Select</button>
+        </div>
+        <div class="candle-option">
+          <img src="./Candle Creator_files/201.avif" alt="Candle 2" width="200" height="200">
+          <h3>Candle 2</h3>
+          <p>Vanilla Delight</p>
+          <button onclick="selectCandle(2)">Select</button>
+        </div>
+        <!-- Add more candle options as needed -->
+      </section>
+
+      <section class="selected-candle">
+        <h2>Your Selection</h2>
+        <img id="selected-candle-img" alt="Selected Candle" width="200" height="200">
+        <h3 id="selected-candle-name"></h3>
+        <p id="selected-candle-description"></p>
+        <button id="instructions-btn" style="display: none" onclick="showInstructions()">
+          Instructions
+        </button>
+        <p id="instructions" style="display: none">
+          Instructions on how to make the chosen candle.
+        </p>
+      </section>
+    </main>
+
+    <script>
+      function selectCandle(candleNumber) {
+        const selectedCandleImg = document.getElementById(
+          "selected-candle-img"
+        );
+        const selectedCandleName = document.getElementById(
+          "selected-candle-name"
+        );
+        const selectedCandleDescription = document.getElementById(
+          "selected-candle-description"
+        );
+        const instructionsBtn = document.getElementById("instructions-btn");
+        const instructions = document.getElementById("instructions");
+
+        if (candleNumber === 1) {
+          selectedCandleImg.src = "./images/200.jpg";
+          selectedCandleName.textContent = "Candle 1";
+          selectedCandleDescription.textContent = "Aromatic Lavender";
+        } else if (candleNumber === 2) {
+          selectedCandleImg.src = "./images/201.avif";
+          selectedCandleName.textContent = "Candle 2";
+          selectedCandleDescription.textContent = "Vanilla Delight";
+        }
+
+        // Show the button
+        instructionsBtn.style.display = "block";
+      }
+
+      function showInstructions() {
+        const instructions = document.getElementById("instructions");
+        const selectedCandleName = document.getElementById(
+          "selected-candle-name"
+        );
+
+        // Update the instructions based on the selected candle
+        if (selectedCandleName.textContent === "Candle 1") {
+          instructions.textContent =
+            "Instructions on how to make the Lavender candle.";
+        } else if (selectedCandleName.textContent === "Candle 2") {
+          instructions.textContent =
+            "Instructions on how to make the Vanilla candle.";
+        }
+
+        // Show the instructions paragraph
+        instructions.style.display = "block";
+      }
+    </script>
+
+    <section class="candle-instructions">
+      <h2>Instructions</h2>
+      <p id="instructions-text" style="display: none">
+        Instructions on how to make the chosen candle.
+      </p>
+    </section>
+
+<!--Section 5-->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: info@craftingcandles.com</p>
+  <p>Phone: +123-456-7890</p>
+</section>
+
+<div class="video-container">
+  <iframe width="560" height="315" src="./Candle Creator_files/ZQk9l2ttcIA.html" frameborder="0" allowfullscreen=""></iframe>
+  <iframe width="560" height="315" src="./Candle Creator_files/CrJ9UE6Nihw.html" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<footer>
+  <p>© 2023 Candle Crafting by Joanna Richardson</p>
+
+  <video width="50" height="50" preload="none" style="
+      background: transparent
+        url(&#39;https://cdn-icons-png.flaticon.com/512/8568/8568703.png&#39;) 50%
+        50% / fit no-repeat;
+    " autoplay="autoplay" loop="true" muted="muted" playsinline="">
+    <source src="https://cdn-icons-mp4.flaticon.com/512/8568/8568703.mp4" type="video/mp4">
+  </video>
+</footer>
+
+
+  
+
+</body></html>

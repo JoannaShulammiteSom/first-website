@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f1d4d4;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #a77c90;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+}
+.candle-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.candle-option {
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+  text-align: center;
+  width: 220px;
+  margin: auto;
+}
+
+.selected-candle {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Instructions styles */
+.candle-instructions {
+  text-align: center;
+}
+
+/* Define the default link styles */
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+/* Define the hover effect */
+nav ul li a:hover {
+  color: #a77c90;
+}
+
+footer {
+  background-color: #f1d4d4;
+  text-align: center;
+  padding: 10px 0;
+  color: #a77c90;
+}
+
+.video-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+iframe {
+  width: 45%;
+  box-shadow: 0 0 10px grey;
+  border: none;
+}
+
+/* Add this CSS code to your try.css file */
+#home {
+  background-color: #f9f9f9; /* Background color */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Gray shadow border */
+  border-radius: 10px; /* Rounded corners */
+  margin: 20px; /* Add some space around the section */
+}
